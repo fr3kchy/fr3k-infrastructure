@@ -13,7 +13,7 @@
 | ACMA compliance | Checklist supplied | Checklist is unchecked; no exact radio, bandwidth, power, antenna, EIRP/PSD calculation or RF sign-off exists | No transmission |
 | Site deployment | 90-day field plan supplied | No written site authority, site conditions, maintenance owner or removal owner is attached | No field deployment |
 | Safety/electrical | Controls described | No signed electrical design review, field risk assessment, weather window or emergency plan exists | No unattended power/field work |
-| Reticulum baseline | Layered architecture proposed | Existing `/home/parrot/repos/hermes-reticulum-platform` passed 38 tests and real signed virtual/LAN LXMF acceptance; RF remains untested | Reuse as technical baseline; do not duplicate |
+| Reticulum baseline | Layered architecture proposed | [`hermes-reticulum-platform`](https://github.com/fr3kchy/hermes-reticulum-platform) passed 38 tests and real signed virtual/LAN LXMF acceptance; RF remains untested | Reuse as technical baseline; do not duplicate |
 | 90-day task data | Actionable plan | Workbook begins with a malformed mixed header/task block and duplicates task ID `T-005` | Normalise before using as source of truth |
 
 ## Decision

@@ -32,4 +32,4 @@ A non-zero exit from either operational check is intentional while blockers exis
 
 ## Related technical baseline
 
-`/home/parrot/repos/hermes-reticulum-platform` is the accepted virtual/LAN gateway baseline. FR3K governance and field acceptance live here; transport implementation remains separate.
+[`fr3kchy/hermes-reticulum-platform`](https://github.com/fr3kchy/hermes-reticulum-platform) is the accepted virtual/LAN gateway baseline. FR3K governance and field acceptance live here; transport implementation remains separate.

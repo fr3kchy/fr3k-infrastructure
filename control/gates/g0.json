@@ -73,7 +73,7 @@
       "status": "CLOSED",
       "owner": "Michael Insch",
       "owner_type": "human",
-      "evidence": ["/home/parrot/repos/hermes-reticulum-platform/docs/FINAL_ACCEPTANCE.md"]
+      "evidence": ["../../docs/RETICULUM_BASELINE.md"]
     },
     {
       "id": "G0-09",
