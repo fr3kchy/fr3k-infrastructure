@@ -1,0 +1,13 @@
+{
+  "baseline_date": "2026-08-02",
+  "gate": "G0",
+  "tasks": [
+    {"id": "FR3K-P0-001", "title": "Assign named P0 owners and reviewers", "priority": "P0", "owner": "UNASSIGNED", "status": "BLOCKED"},
+    {"id": "FR3K-P0-002", "title": "Restore and approve complete SOP-06, SOP-07, SOP-08, SOP-09, SOP-11, SOP-20 and SOP-22 procedures", "priority": "P0", "owner": "UNASSIGNED", "status": "BLOCKED"},
+    {"id": "FR3K-P0-003", "title": "Define P0 bench reference design and immutable BOM", "priority": "P0", "owner": "UNASSIGNED", "status": "NOT_STARTED"},
+    {"id": "FR3K-P0-004", "title": "Record exact RF mode and complete current ACMA review", "priority": "P0", "owner": "UNASSIGNED", "status": "BLOCKED"},
+    {"id": "FR3K-P0-005", "title": "Repair workbook duplicate IDs, shifted columns and library counts", "priority": "P0", "owner": "UNASSIGNED", "status": "IN_PROGRESS"},
+    {"id": "FR3K-P1-001", "title": "Prepare private-site permission candidate pack without deployment commitment", "priority": "P1", "owner": "UNASSIGNED", "status": "NOT_STARTED"},
+    {"id": "FR3K-P1-002", "title": "Build evidence-first publishing queue from verified bench results", "priority": "P1", "owner": "UNASSIGNED", "status": "NOT_STARTED"}
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "gate": "G0",
+  "verdict": "BLOCKED",
+  "blocking_controls": [
+    "G0-01",
+    "G0-03",
+    "G0-04",
+    "G0-05",
+    "G0-06",
+    "G0-07"
+  ],
+  "evaluated_at": "2026-08-01T18:58:30.331708+00:00",
+  "controls": [
+    {
+      "id": "G0-01",
+      "passed": false,
+      "status_ok": false,
+      "owner_ok": false,
+      "evidence_ok": true
+    },
+    {
+      "id": "G0-02",
+      "passed": true,
+      "status_ok": true,
+      "owner_ok": true,
+      "evidence_ok": true
+    },
+    {
+      "id": "G0-03",
+      "passed": false,
+      "status_ok": false,
+      "owner_ok": false,
+      "evidence_ok": true
+    },
+    {
+      "id": "G0-04",
+      "passed": false,
+      "status_ok": false,
+      "owner_ok": false,
+      "evidence_ok": false
+    },
+    {
+      "id": "G0-05",
+      "passed": false,
+      "status_ok": false,
+      "owner_ok": false,
+      "evidence_ok": false
+    },
+    {
+      "id": "G0-06",
+      "passed": false,
+      "status_ok": false,
+      "owner_ok": false,
+      "evidence_ok": false
+    },
+    {
+      "id": "G0-07",
+      "passed": false,
+      "status_ok": false,
+      "owner_ok": false,
+      "evidence_ok": false
+    },
+    {
+      "id": "G0-08",
+      "passed": true,
+      "status_ok": true,
+      "owner_ok": true,
+      "evidence_ok": true
+    },
+    {
+      "id": "G0-09",
+      "passed": true,
+      "status_ok": true,
+      "owner_ok": true,
+      "evidence_ok": true
+    }
+  ]
+}

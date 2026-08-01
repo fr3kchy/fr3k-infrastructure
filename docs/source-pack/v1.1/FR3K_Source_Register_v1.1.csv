@@ -1,0 +1,31 @@
+id,title,publisher,url,accessed,use,authority
+S01,ACMA - Low interference potential devices class licence,Australian Communications and Media Authority,https://www.acma.gov.au/licences/low-interference-potential-devices-lipd-class-licence,2026-08-01,Current regulatory overview; shared spectrum; equipment and interference obligations,Primary
+S02,Radiocommunications (Low Interference Potential Devices) Class Licence 2025,Federal Register of Legislation,https://www.legislation.gov.au/F2025L01047/asmade/text,2026-08-01,915-928 MHz digital modulation/frequency hopping limits and additional limitations,Primary
+S03,Meshtastic LoRa Configuration,Meshtastic,https://meshtastic.org/docs/configuration/radio/lora/,2026-08-01,"ANZ region settings, hop limits, modem presets and transmit power configuration",Primary
+S04,Reticulum Network Stack Manual 1.4.2,Reticulum Network,https://reticulum.network/manual/index.html,2026-08-01,"Architecture, utilities, interfaces, deployment and development guidance",Primary
+S05,Programs Using Reticulum,Reticulum Network,https://reticulum.network/manual/software.html,2026-08-01,LXMF properties and applications,Primary
+S06,Reticulum Getting Started Fast,Reticulum Network,https://reticulum.network/manual/gettingstartedfast.html,2026-08-01,"RNode, OpenWrt, installation and bootstrapping guidance",Primary
+S07,Reticulum discussion: Meshtastic-style bridge packet-size constraints,Reticulum GitHub Discussions,https://github.com/markqvist/Reticulum/discussions/524,2026-08-01,Engineering caution: direct Meshtastic-to-Reticulum transport is a poor fit without custom fragmentation/routers,Maintainer community
+S08,SeaArt all-in-one creation platform,SeaArt AI,https://www.seaart.ai/,2026-08-01,"Current image, video, character and community capability positioning",Primary
+S09,SeaArt AI image model training,SeaArt AI,https://www.seaart.ai/model-training,2026-08-01,Custom LoRA training and supported base-model families,Primary
+S10,SeaArt ComfyUI workflows,SeaArt AI,https://www.seaart.ai/workflows-comfyui,2026-08-01,Node-based reusable workflow capability,Primary
+S11,SeaArt AI video generator,SeaArt AI,https://www.seaart.ai/create/video,2026-08-01,Text/image-to-video and audio generation positioning,Primary
+S12,Adafruit About,Adafruit Industries,https://www.adafruit.com/about_us,2026-08-01,Education-led open hardware model and accessible learning mission,Primary
+S13,Adafruit Learning System,Adafruit Industries,https://learn.adafruit.com/,2026-08-01,Documentation as product and learning-system model,Primary
+S14,SparkFun story and open-source education model,SparkFun Electronics,https://www.sparkfun.com/about-sparkfun,2026-08-01,"Open hardware, tutorials and access across skill levels",Primary
+S15,SparkFun Learn,SparkFun Electronics,https://learn.sparkfun.com/,2026-08-01,Structured beginner-to-advanced tutorial pathways,Primary
+S16,GitHub issue and pull-request templates,GitHub Docs,https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates,2026-08-01,Contributor intake and quality controls,Primary
+S17,GitHub Discussions,GitHub Docs,https://docs.github.com/en/discussions,2026-08-01,"Open project conversation, Q&A and governance",Primary
+S18,GitHub Sponsors,GitHub Docs,https://docs.github.com/en/sponsors,2026-08-01,Open-source funding pathway,Primary
+S19,Jeff Geerling YouTube channel,YouTube,https://www.youtube.com/c/JeffGeerling,2026-08-01,"Engineering storytelling, testing and creator-led open-source model",Primary channel
+S20,Jeff Geerling blog,Jeff Geerling,https://www.jeffgeerling.com/blog/,2026-08-01,Video-to-written-documentation flywheel and transparent project logs,Primary
+S21,Andreas Spiess YouTube channel,YouTube,https://www.youtube.com/@AndreasSpiess,2026-08-01,Measurement-led electronics education and repeatable experimental format,Primary channel
+S22,NetworkChuck Academy,NetworkChuck,https://academy.networkchuck.com/,2026-08-01,"Hands-on labs, learning paths, weekly cadence and community progression",Primary
+S23,"Townsville Local Disaster Management Plan, version 17",Townsville City Council,https://www.townsville.qld.gov.au/__data/assets/pdf_file/0011/260030/TLDMG_Local_Disaster_Management_Plan1.pdf,2026-08-01,"Local governance, Magnetic Island DMG and telecommunications/power stakeholder context",Primary
+S24,Townsville Community Grants and Partnerships,Townsville City Council,https://www.townsville.qld.gov.au/community-support/grants-and-partnerships,2026-08-01,Current 2026-27 local grant categories and amounts,Primary
+S25,Disaster Ready Fund,National Emergency Management Agency,https://www.nema.gov.au/our-work/key-programs/disaster-ready-fund,2026-08-01,Current national disaster-risk-reduction funding context,Primary
+S26,Queensland disaster preparedness portal,Queensland Government,https://www.disaster.qld.gov.au/,2026-08-01,"Official emergency information, household preparedness and warning channels",Primary
+S27,Queensland Parks permit finder,Queensland Parks and Wildlife Service,https://parks.desi.qld.gov.au/management/permits/permit-finder,2026-08-01,Protected-area activity and permit gating,Primary
+S28,Australian Institute for Disaster Resilience,AIDR,https://www.aidr.org.au/,2026-08-01,"National resilience knowledge, shared responsibility and capability building",Primary
+S29,YouTube Partner Program eligibility,YouTube Help,https://support.google.com/youtube/answer/13429240,2026-08-01,"Current monetisation thresholds; planning only, not guaranteed revenue",Primary
+S30,Townsville Walking and Cycling Trails - Magnetic Island Trails Vision Plan,Townsville City Council,https://www.townsville.qld.gov.au/community-support/health-and-exercise/walking-and-cycling-trails,2026-08-01,Joint Council/QPWS planning context; do not assume site access,Primary

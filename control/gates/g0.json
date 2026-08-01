@@ -1,0 +1,88 @@
+{
+  "gate": "G0",
+  "purpose": "Authorise procurement, transmission, or field deployment",
+  "default_action": "HOLD",
+  "controls": [
+    {
+      "id": "G0-01",
+      "title": "Named accountable humans assigned to every P0 function",
+      "priority": "P0",
+      "status": "BLOCKED",
+      "owner": "Program Lead",
+      "owner_type": "role",
+      "evidence": ["../../docs/REALITY_RECONCILIATION.md"]
+    },
+    {
+      "id": "G0-02",
+      "title": "Source pack checksum integrity",
+      "priority": "P0",
+      "status": "CLOSED",
+      "owner": "Michael Insch",
+      "owner_type": "human",
+      "evidence": ["../../evidence/pack-audit.json"]
+    },
+    {
+      "id": "G0-03",
+      "title": "P0 SOP procedures complete, reviewed and approved",
+      "priority": "P0",
+      "status": "BLOCKED",
+      "owner": "Governance Lead",
+      "owner_type": "role",
+      "evidence": ["../../docs/REALITY_RECONCILIATION.md"]
+    },
+    {
+      "id": "G0-04",
+      "title": "Exact RF configuration and current ACMA sign-off",
+      "priority": "P0",
+      "status": "BLOCKED",
+      "owner": "RF Lead",
+      "owner_type": "role",
+      "evidence": []
+    },
+    {
+      "id": "G0-05",
+      "title": "Written site permission and maintenance/removal owner",
+      "priority": "P0",
+      "status": "BLOCKED",
+      "owner": "Operations Lead",
+      "owner_type": "role",
+      "evidence": []
+    },
+    {
+      "id": "G0-06",
+      "title": "Electrical, field safety and weather controls approved",
+      "priority": "P0",
+      "status": "BLOCKED",
+      "owner": "Safety Lead",
+      "owner_type": "role",
+      "evidence": []
+    },
+    {
+      "id": "G0-07",
+      "title": "Privacy, secrets and evidence-handling controls approved",
+      "priority": "P0",
+      "status": "BLOCKED",
+      "owner": "Governance / Security Lead",
+      "owner_type": "role",
+      "evidence": []
+    },
+    {
+      "id": "G0-08",
+      "title": "Virtual/LAN Reticulum baseline independently accepted",
+      "priority": "P0",
+      "status": "CLOSED",
+      "owner": "Michael Insch",
+      "owner_type": "human",
+      "evidence": ["/home/parrot/repos/hermes-reticulum-platform/docs/FINAL_ACCEPTANCE.md"]
+    },
+    {
+      "id": "G0-09",
+      "title": "Procurement, transmission and deployment hold recorded",
+      "priority": "P0",
+      "status": "CLOSED",
+      "owner": "Michael Insch",
+      "owner_type": "human",
+      "evidence": ["../../docs/G0_DECISION_20260802.md"]
+    }
+  ]
+}

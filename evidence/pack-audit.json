@@ -1,0 +1,12 @@
+{
+  "integrity": "PASS",
+  "missing": [],
+  "checksum_failures": [],
+  "declared_prompt_count": 240,
+  "actual_prompt_count": 236,
+  "findings": [
+    "prompt count mismatch: README=240, JSON=236",
+    "SOP manual contains a placeholder instead of SOP-01 through SOP-25 procedures"
+  ],
+  "operational_acceptance": "BLOCKED"
+}

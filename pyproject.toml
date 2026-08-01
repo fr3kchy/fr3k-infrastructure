@@ -1,0 +1,8 @@
+[project]
+name = "fr3k-infrastructure-control"
+version = "0.1.0"
+description = "Executable governance and evidence gates for FR3K infrastructure"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
