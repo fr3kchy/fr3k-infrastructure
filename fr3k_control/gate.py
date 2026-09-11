@@ -7,7 +7,22 @@ from pathlib import Path
 from typing import Any
 
 PASS_STATUS = "CLOSED"
-ROLE_MARKERS = (" lead", " team", " board", " group", "owner", "maintainer", "controller")
+ROLE_MARKERS = (" lead", " team", " board", " group", " owner", " maintainer", " controller")
+PLACEHOLDER_OWNERS = {
+    "unassigned",
+    "tbd",
+    "tba",
+    "unknown",
+    "none",
+    "n/a",
+    "na",
+    "placeholder",
+    "human",
+    "operator",
+    "core team",
+    "program lead",
+    "rf lead",
+}
 
 
 def load_control(path: Path) -> dict[str, Any]:
@@ -23,10 +38,16 @@ def load_control(path: Path) -> dict[str, Any]:
 
 
 def _named_human(control: dict[str, Any]) -> bool:
-    if control.get("owner_type") == "human":
-        return bool(str(control.get("owner", "")).strip())
-    owner = str(control.get("owner", "")).strip().lower()
-    return bool(owner and owner not in {"unassigned", "tbd", "core team"} and not any(owner.endswith(x) for x in ROLE_MARKERS))
+    # owner_type is a claim about the owner, not evidence that a concrete owner
+    # has actually been named. Validate the value first, regardless of type.
+    owner = " ".join(str(control.get("owner", "")).strip().split()).lower()
+    if not owner or owner in PLACEHOLDER_OWNERS:
+        return False
+    if owner.startswith(("tbd ", "tba ", "unassigned ", "placeholder ", "example ", "test ")):
+        return False
+    if any(owner.endswith(marker) for marker in ROLE_MARKERS):
+        return False
+    return True
 
 
 def _evidence_exists(control: dict[str, Any], base_dir: Path) -> bool:
